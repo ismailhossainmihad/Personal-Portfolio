@@ -50,7 +50,7 @@ const Portfolio = () => {
       <DetailsPopup open={popup} close={() => setPopup(false)} />
       <div className="dizme_tm_portfolio">
         <div className="container">
-          <div className="dizme_tm_main_title" data-align="center">
+          <div className="dizme_tm_main_title" data-align="centre">
             <span>Publications</span>
             <h3>Journals and Articles</h3>
             <h4>Selected Articles in Journals</h4>
@@ -69,7 +69,7 @@ const Portfolio = () => {
         "3"... Chaogi Yang, Navjot Singh, Cao Xiao, Cheng Qian, Edgar Solomonik, Jimeng Sun; MTC: Multiresolution tensor completion from partial and coarse observations; ACM SIGKDD Conference, 11 pages, June 2021.
         "4"... Edward Hutter and Edgar Solomonik; Confidence-based approximation for performance prediction using execution path analysis; IEEE International Parallel and Distributed Processing Symposium (IPDPS), 12 pages, May 2021.
         "5"... Linjian Ma and Edgar Solomonik: Efficient parallel CP decomposition with pairwise perturbation and multi-sweep dimension tree; IEEE International Parallel and Distributed Processing Symposium (IPDPS), 11 pages, May 2021.
-         </text>
+        </text>
           </div>
           <div className="portfolio_filter">
             <ul>
