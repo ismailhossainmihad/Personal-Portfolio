@@ -45,13 +45,7 @@ const About = ({ dark }) => {
                     skills and knowledge necessary to make a research successful . And I have been teaching
                      as an assistant professor in University of Illinois at Urbana-Champaign since 2016 till 
                      now .</p>
-                <h4>Academic Positions</h4>
-                <p>&bull;
-                  {` Assistant Professor, University of Illinois at Urbana-Champaign, 2016-present`}
-                </p>
-                <p>&bull;
-                  {` Postdoctoral Researcher, ETH Zurich, 2014-2016, advisor: Torsten Hoefler`}
-                </p>
+                
               </div>
               <div
                 className="dizme_tm_button wow fadeInUp"
@@ -71,7 +65,21 @@ const About = ({ dark }) => {
           <img src="img/brushes/about/2.png" alt="image" />
         </div>
       </div>
-    </div>
+      
+      <div>
+      
+      <div className="Myname" data-align="center">
+      <h2>Academic Positions</h2>
+                <p>&bull;
+                  {` Assistant Professor, University of Illinois at Urbana-Champaign, 2016-present`}
+                </p>
+                <p>&bull;
+                  {` Postdoctoral Researcher, ETH Zurich, 2014-2016, advisor: Torsten Hoefler`}
+                </p>
+                </div>
+                </div>
+                
+</div>
   );
 };
 export default About;
