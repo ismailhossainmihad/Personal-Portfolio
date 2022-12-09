@@ -21,11 +21,15 @@ const Skills = ({ dark }) => {
                 data-wow-duration="1s"
                 data-align="left"
               >
-                <span>Design is Life</span>
-                <h3>I Develop Skills Regularly to Keep Me Update</h3>
+                <span>My software involvements</span>
+                <h3>I have  worked on </h3>
+                <a href="https://github.com/cyclops-community/ctf">  Cyclops Tensor Framework </a>
+                    And    
+                <a href="https://github.com/solomonik/CANDMC">CANDMC</a>
                 <p>
-                  Most common methods for designing websites that work well on
-                  desktop is responsive and adaptive design
+
+            
+                  To see all of  my software involvements visit my <a href="https://github.com/solomonik"> My Github</a> 
                 </p>
               </div>
               <div
@@ -55,7 +59,7 @@ const Skills = ({ dark }) => {
               </div>
             </div>
             <div className="right">
-              <img src={`img/skills/${dark ? 2 : 1}.jpg`} alt="image" />
+              <img src={`img/skills/imggit.jpg`} alt="image" />
             </div>
           </div>
         </div>
