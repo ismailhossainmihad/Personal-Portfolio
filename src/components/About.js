@@ -39,6 +39,7 @@ const About = ({ dark }) => {
                 <span>{`I'm a Professor`}</span>
                 <h3>I have been teaching since 2016</h3>
               </div>
+              
               <div className="text wow fadeInUp" data-wow-duration="1s">
                 <p>Hello there! I'm an Assistan Professor, and I'm very passionate and dedicated to my work.
                    With  several years research experience as a postdoctoral Professor , I have acquired the
@@ -55,6 +56,16 @@ const About = ({ dark }) => {
                   <span>Contact Me</span>
                 </a>
               </div>
+              <div>
+              <br /> <br />
+              <br /><h2>Academic Positions</h2>
+                <p>&bull;
+                  {` Assistant Professor, University of Illinois at Urbana-Champaign, 2016-present`}
+                </p>
+                <p>&bull;
+                  {` Postdoctoral Researcher, ETH Zurich, 2014-2016, advisor: Torsten Hoefler`}
+                </p>
+                </div>
             </div>
           </div>
         </div>
@@ -64,22 +75,15 @@ const About = ({ dark }) => {
         <div className="brush_2 wow fadeInRight" data-wow-duration="1s">
           <img src="img/brushes/about/2.png" alt="image" />
         </div>
+        
       </div>
       
-      <div>
+
+      </div>
+
       
-      <div className="Myname" data-align="center">
-      <h2>Academic Positions</h2>
-                <p>&bull;
-                  {` Assistant Professor, University of Illinois at Urbana-Champaign, 2016-present`}
-                </p>
-                <p>&bull;
-                  {` Postdoctoral Researcher, ETH Zurich, 2014-2016, advisor: Torsten Hoefler`}
-                </p>
-                </div>
-                </div>
                 
-</div>
+                
   );
 };
 export default About;
